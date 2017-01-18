@@ -10,7 +10,26 @@
   </head>
   <body>
     <div class="container">
-      
+      <h1>Palettable Palindromes</h1>
+      <p>
+        A palindrome is any word, phrase, number, or other sequence of characters which reads the same backward or forward. Create a web page to identify whether or not a word is a palindrome.
+      </p>
+      <form class="" action="index.html" method="post">
+        <div class="form-group">
+          <label for="">Enter a word to see if it's a palindrome</label>
+          <input type="text" id="user-input">
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div class="hide-me" id="palindrome">
+        <span id="correct"></span> is a palidrome! Good job!
+
+        <br>
+      </div>
+
+      <div class="hide-me" id="not-palindrome">
+        Sorry, but <span id="incorrect"></span> is not a palindrome.
+      </div>
 
     </div>
   </body>
